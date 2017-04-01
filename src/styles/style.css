@@ -1,0 +1,151 @@
+.tabletr th {
+    background: #D9E1E7;
+    border: 1px solid #DBDBDB;
+}
+
+.tabletr {
+    padding: 15px 20px
+}
+
+table.altrowstable {
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #6B6B6B;
+    border-collapse: collapse;
+    margin: 0 0;
+    width: 100%;
+}
+
+table.altrowstable th {
+    text-align: center;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    padding: 8px 2px;
+    background: #D9E1E7;
+    border-bottom-width: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+
+table.altrowstable td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    padding: 8px 2px;
+    text-align: center;
+    font-size: 14px;
+    color: #6B6B6B;
+    height: 37px;
+}
+
+#alternatecolor>tr:nth-child(even) {
+    background: #EBEFF1;
+}
+
+/*设置选择框样式*/
+select.form-control {
+    border: solid 1px #CCCCCC;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/yellow-arrow.png");
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+}
+
+/*设置选择框样式*/
+system.form-control {
+    border: solid 1px #CCCCCC;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/yellow-arrow.png");
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+    width: 20%;
+}
+
+input.form-control {
+    border: solid 1px #CCCCCC;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 34px;
+    font-size: 14px;
+    border: solid 1px #CCCCCC;
+    width: 70%;
+    text-align: left;
+    line-height: 30px;
+    padding: 0px 13;
+}
+
+/*滑动时的字体效果*/
+.search:hover {
+    height: 24px;
+    line-height: 20px;
+    display: inline-block;
+    color: #ffc20a;
+    border: 1px solid #ffc20a;
+    padding: 0 -1px 0 -1px;
+    margin: 0 -1px 0 -1px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+/*默认的字体颜色*/
+.search {
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 2px;
+}
+
+/*默认的字体颜色*/
+.search {
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*选中的字体效果*/
+.hoverschd {
+    height: 24px;
+    line-height: 20px;
+    display: inline-block;
+    color: #ffc20a;
+    border: 1px solid #ffc20a;
+    padding: 0 -1px 0 -1px;
+    margin: 0 -1px 0 -1px;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+/*分页按钮状态*/
+#root .activeItem {
+    background-color: #337ab7;
+    color: #fff;
+}
+.pagItem>li {
+    color: rgb(51, 122, 183)
+}
+.pagItem>li:hover {
+    background-color: #eee;
+}
+.pagItem>li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagItem>li:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}

@@ -1,0 +1,319 @@
+
+
+.styleul li{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	overflow: hidden;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	color: #ccc;
+	overflow: hidden;
+	border-top: 1px solid #3c3c3c;
+	border-bottom: 1px solid #141414;
+}
+.styleul ul{
+	padding-left:0;
+	margin-left: 0;
+	overflow: hidden;
+}
+.styleul ul dl dd{
+	border-top: 1px solid #3c3c3c;
+	border-bottom: 1px solid #141414;
+}
+.styleul li:hover{
+	background: black;
+}
+.styleul li:hover a{
+	text-decoration: none;
+}
+.styleul li a{
+	color: #ccc;
+	vertical-align: top;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.styleul li span{
+	font:26px/50px "microsoft yahei";
+}
+.colorsyell{
+	color: #ff8509!important;
+}
+.headcharul{
+	width: 100%;
+}
+.headcharul li{
+	float:left;
+	width: 50%;
+	text-align: center;
+	list-style: none;
+	font-family: 微软雅黑;
+	color: #3F3F3F;
+}
+.trueIconA{
+	background: url(../images/dataAnalysis.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconB{
+	background: url(../images/deal.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconC{
+	background: url(../images/member.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconD{
+	background: url(../images/systemSettings.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconE{
+	background: url(../images/operation.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconF{
+	background: url(../images/personnel.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.trueIconG{
+	background: url(../images/statement.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.iconcount{
+	background: url(../images/bar1.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.iconhome{
+	/*background: url(../images/home.png) no-repeat 0px -1px;*/
+	padding: 4px 20px 0 4px;
+}
+.iconyello{
+	background: url(../images/yellow-icon1.png) no-repeat 0px -1px;
+	padding: 4px 20px 0 10px;
+}
+.iconyelloaway{
+	/*background: url(../images/yellow-arrow.png) no-repeat 0px -1px;*/
+	font-size: 16px;
+    margin-right:20px;
+    color: #ff8509;
+	/*margin-top: 20px;
+    padding: 10px 20px 10px 0;*/
+	float: right;
+}
+.dropDownimg{
+	/*background: url(../images/grey-arrow.png) no-repeat 0px -1px;*/
+	font-size: 16px;
+    margin-right:20px;
+	/*margin-top: 20px;
+    padding: 10px 20px 10px 0;*/
+	float: right;
+}
+.inputGroups{
+	height: 34px;
+	width: 300px;
+	font-size: 15px;
+	float: left;
+	margin: 10px 0 0 30px;
+	border: 1px solid #ccc;
+	border-right: none!important;
+	border-radius: 0 0 0 0;
+}
+.inputbtn{
+	float: left;
+	width: 35px;
+	height: 34px;
+	margin: 10px 0px 0 0;
+	background: #103c61;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 34px;
+}
+.headParkChangeSection{
+	width: 100%;
+}
+.parkSelectHeads ul{
+	width: 100%;
+	height: 270px;
+	overflow: hidden;
+	list-style: none;
+}
+.parkSelectHeads ul li{
+	width: 100%;
+	height: 45px;
+	padding-left: 35px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	line-height: 45px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.parkSelectHeads ul li:last-child{
+	border-bottom: 0 none;
+}
+.parkSelectHeads ul li:hover{
+	background: #FFeaa9;
+}
+.parkSelectHeadsnext ul{
+	width: 100%;
+	height: 331px;
+	overflow: hidden;
+	list-style: none;
+	color: #767575;
+}
+.parkSelectHeadsnext ul li{
+	width: 100%;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	color: #767575;
+	font-family: 微软雅黑;
+	padding-left: 5px;
+}
+.parkSelectHeadsnext ul li:hover{
+	background: #FFeaa9;
+}
+
+.seekParks{
+	padding-bottom: 10px;
+	background: #e5e5e5;
+}
+
+.parksnext{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #e5e5e5;
+	font-size: 16px;
+	color: #333;
+}
+.parksnext p{
+	flex: 1;
+	text-align: center;
+}
+.parksnext p .iconfont{
+	font-size: 26px;
+	color: #C3C3C3;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sizelefts{
+	cursor:pointer;
+}
+.sizerights{
+	float: right;
+}
+.sizecenters{
+	/*margin-left: 30%;
+	margin-top: 5px;
+	font-size: 18px;*/
+}
+.usericon{
+	
+	background: url(../images/user-man.png) no-repeat 0px -1px;
+	width: 45px;
+	height: 45px;
+	border-radius: 100px;
+}
+.checkedli{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #FFC10A;
+	background: #fff;
+	text-align: center;
+	line-height: 40px;
+	color: #FFC10A;
+	float: left;
+	margin-top: 10px;
+}
+.sizeleftstos{
+	width: 35px;
+	height: 35px;
+	border: 1px solid #FFC10A;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFC10A;
+	float: left;
+	margin-top: 13px;
+	margin-left: 80px;
+}
+.sizerightstos{
+	width: 35px;
+	height: 35px;
+	border: 1px solid #FFC10A;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFC10A;
+	float: right;
+	margin-top: 13px;
+}
+.sizecenterstos{
+	color: #FFC10A;
+	float: left;
+	margin-top: 5px;
+	margin-left: 72px;
+	font-size: 18px;
+}
+.userheads{
+	padding-top: 5px;
+}
+.passwduser{
+	z-index: 10;
+	width: 150px;
+	border: 6px solid #e1e1e1;
+	background: #223144;
+	color: #333;
+	position: absolute;
+	top: 85px;
+	left: -55px;
+	text-align: center;
+	padding: 20px 10px 10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.passwduser p{
+	width: 100%;
+	color: #333;
+	font-size: 14px;
+	cursor: pointer;
+	background: #fff;
+	padding: 8px 10px;
+}
+.passwduser p:first-child{
+	border-bottom: 1px solid #c2c2c2;
+}
+.passwduser p:hover a{
+	color:#ff8509;
+	text-decoration: none;
+}
+.passwduser p a{
+	color: #333;
+}
+.noneList {
+	background: #0c0c0c;
+	display: none;
+}
+.noneList dd a {
+	font-size: 14px;
+	color: #cccccc;
+	padding: 15px 0 15px 57px;
+	display: block;
+}
+.noneList dd a:hover {
+	color: #ff8509;
+}
+.parkSoar a{
+	color: #666;
+}
+.table2 li{
+	height: 20px!important;
+	line-height: 20px!important;
+}
+.leftList li,dl,dd{
+	cursor: pointer;
+}

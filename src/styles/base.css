@@ -1,0 +1,69 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, q, s,
+	small, strong, b, u, i, dl, dt, dd, ol, ul, li, form, label, table,
+	caption, tbody, tfoot, thead, tr, th, td, article, footer, header, menu,
+	nav, section, time, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	font-family: "微软雅黑";
+	font-weight: normal;
+	/* vertical-align: baseline; */
+	text-decoration: none;
+}
+
+html,body{
+	height:100%;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.lgText {
+	font-size: 30px;
+	color: #6b6b6b;
+}
+
+.smallText {
+	font-size: 14px;
+	color: #6b6b6b;
+}
+
+.wrapper {
+	width: 100%;
+	min-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
